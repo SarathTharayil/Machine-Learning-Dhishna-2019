@@ -14,4 +14,4 @@ Reinforcedment learning :
     - not trained beforehand unlike both Supervised and Unsupervised
 
 
-Algorithms to be used depend on the data tat we are to analyse.
+Algorithms to be used depend on the data that we are to analyse.
