@@ -1,0 +1,15 @@
+Types
+
+Supervised Learning :
+
+    - Labelled data. Data will be labelled and be fed to the system.
+
+Unsupervised :
+
+    - System will automatically group and label data based on similarity between the data
+
+Reinforcedment learning :
+
+    - feedbacks from the working system trains itself to categorise data. Predicts the data with the similarities found while running.
+    - not trained beforehand unlike both Supervised and Unsupervised
+    
