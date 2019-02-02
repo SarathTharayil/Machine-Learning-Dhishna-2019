@@ -25,4 +25,8 @@ print("L1 normalised data :", data_normalised_l1)
 data_normalised_l2 = preprocessing.normalize(input_data, norm='l2')
 print("L2 normalised data :", data_normalised_l2)
 
+data_binarised = preprocessing.Binarizer(threshold=4.5)
+binarised_data = data_binarised.transform(input_data)
+print("Binarised Data : ", binarised_data)
+
 

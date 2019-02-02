@@ -40,3 +40,11 @@ normaliser scaling : L1, L2
                             - result of normalisation is array, wit each rows absolute value is 1
                      l2 - least squares
                             - sum of squares of results each corresponding element of rows will be 1
+
+Binarization : Depending on the threashold data, value will be binarised to 0 or 1 if the data is below or above the threashold respectevely.
+binarizer
+
+Labels : Fit and transform
+
+Fit : One side conversions
+Transform : Can tranform as well as inverse transform
