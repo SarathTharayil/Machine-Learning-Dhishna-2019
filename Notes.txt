@@ -12,4 +12,6 @@ Reinforcedment learning :
 
     - feedbacks from the working system trains itself to categorise data. Predicts the data with the similarities found while running.
     - not trained beforehand unlike both Supervised and Unsupervised
-    
+
+
+Algorithms to be used depend on the data tat we are to analyse.
