@@ -34,3 +34,9 @@ input_data.std(axis=0) for standard deviation
 data_standardised = preprocessing.scale(input_data) : to standardise
 
 data_scaled = data_scaler.fit_transform(input_data) : MinMax Scaling
+
+normaliser scaling : L1, L2 
+                     L1 - least absolute deviation
+                            - result of normalisation is array, wit each rows absolute value is 1
+                     l2 - least squares
+                            - sum of squares of results each corresponding element of rows will be 1
