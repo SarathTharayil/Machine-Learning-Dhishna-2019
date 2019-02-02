@@ -15,3 +15,22 @@ Reinforcedment learning :
 
 
 Algorithms to be used depend on the data that we are to analyse.
+
+
+Preprocess data : before training
+
+numpy : array creation
+sklearn : machine learning Algorithms
+
+
+import numpy as np 
+from sklearn import preprocessing
+
+array creation : np.array([<rows>],[<rows>])
+
+input_data.mean(axis=0) for mean
+input_data.std(axis=0) for standard deviation
+
+data_standardised = preprocessing.scale(input_data) : to standardise
+
+data_scaled = data_scaler.fit_transform(input_data) : MinMax Scaling
