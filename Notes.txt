@@ -48,3 +48,14 @@ Labels : Fit and transform
 
 Fit : One side conversions
 Transform : Can tranform as well as inverse transform
+
+Day 2
+
+Supervised Learning SVM Classification
+        - support vector machine
+        - hyperline
+        - classifies with hyperlines
+        - non linear SVMs for complex datasets
+        
+
+Matplotlib plotting python package
