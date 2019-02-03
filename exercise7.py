@@ -33,7 +33,7 @@ xx,yy = np.meshgrid(np.arange(x_min,x_max,h), np.arange(y_min,y_max,h))
 titles = ["SVC with Linear Kernel", 'SVC with RBF Kernel', 'SVC with Polynomial (Degree 3) Kernel']
 
 for i, clf in enumerate((lin_svc,rbf_svc,poly_svc)):
-        plt.subplot(2, 2, i+1)
+        plt.subplot(2, 2, (i+1))
         plt.subplots_adjust(wspace=0.4, hspace=0.4)
 
         Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])

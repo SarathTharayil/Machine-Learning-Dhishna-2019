@@ -6,8 +6,8 @@ iris_flower = datasets.load_iris()
 
 names = iris_flower.feature_names
 print("Dataset feature label : ", names)
-# print("Description : ", iris_flower['DESCR'])
-# print("Feature Data : ", iris_flower['data'])
+print("Description : ", iris_flower['DESCR'])
+print("Feature Data : ", iris_flower['data'])
 
 X = iris_flower.data[:,:2]
 # print(X)
